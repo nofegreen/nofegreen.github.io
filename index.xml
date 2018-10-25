@@ -6,10 +6,20 @@
     <description>Recent content on Nofe Green</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Oct 2018 11:35:36 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 Oct 2018 11:47:05 +0700</lastBuildDate>
     
 	<atom:link href="https://nofegreen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cara Instal Komputer Agar Tidak Kehilangan Data</title>
+      <link>https://nofegreen.github.io/2018/cara-instal-komputer-agar-tidak-kehilangan-data/</link>
+      <pubDate>Thu, 25 Oct 2018 11:47:05 +0700</pubDate>
+      
+      <guid>https://nofegreen.github.io/2018/cara-instal-komputer-agar-tidak-kehilangan-data/</guid>
+      <description>Cara Instal Komputer Untuk Windows 7 Pada dasarnya menginstal komputer itu sangat mudah, terlebih pada saat ini semua teknologi berlomba-lomba untuk selalu update. Kebanyakan orang tidak memperhatikan data-data yang penting karena faktor tergesa-gesa atau deadline, disitulah terjadi kehilangan data penting tanpa disengaja.
+Disinilah saya akan membagikan tutorial ala master bagi pemula yang hanya bisa menginstal komputer secara dasar. Tool yang digunakan untuk menginstal komputer / OS (Operation System) bervariasi tapi saya hanya menggunakan Rufus untuk boating di Flashdisk.</description>
+    </item>
     
     <item>
       <title>Cara Membuat Flashdisk Bootable Untuk Windows</title>
