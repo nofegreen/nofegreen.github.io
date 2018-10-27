@@ -35,11 +35,10 @@ p {
 
 /* Navbar links */
 .navbar a {
-  float: left;
-  display: block;
+  float: none;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -56,39 +55,11 @@ p {
   color: white;
 }
 
-/* Style the input container */
-.navbar .search-container {
-  float: right;
-}
-
-/* Style the input field inside the navbar */
-.topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-}
-
-/* Style the button inside the input container */
-.topnav .search-container button {
-  float: right;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.topnav .search-container button:hover {
-  background: #ccc;
-}
-
-/* css efect text */
+/* css efect text nofegreen */
 h6 {
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px black;
+  text-shadow: 1px 1px 2px greenyellow, 0 0 25px greenyellow, 0 0 5px greenyellow (250, 0, 0);
+  font-family: 'Righteous', cursive;
 }
 
 /* card */
@@ -106,22 +77,6 @@ h6 {
   font-size: 22px;
 }
 
-.card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.card button:hover {
-  opacity: 0.7;
-}
-
 /* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .navbar .search-container {
@@ -134,8 +89,5 @@ h6 {
     width: 100%;
     margin: 0;
     padding: 14px;
-  }
-  .navbar input[type=text] {
-    border: 1px solid #ccc;
   }
 }
