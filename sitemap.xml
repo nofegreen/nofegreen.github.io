@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nofegreen.github.io/pages/about/</loc>
+    <lastmod>2018-10-28T08:40:31+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nofegreen.github.io/pages/privacy/</loc>
+    <lastmod>2018-10-28T08:40:31+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nofegreen.github.io/2018/software-software-penting-setelah-menginstal-komputer/</loc>
     <lastmod>2018-10-26T13:48:30+07:00</lastmod>
   </url>
@@ -31,7 +41,13 @@
   
   <url>
     <loc>https://nofegreen.github.io/</loc>
-    <lastmod>2018-10-26T13:48:30+07:00</lastmod>
+    <lastmod>2018-10-28T08:40:31+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nofegreen.github.io/pages/</loc>
+    <lastmod>2018-10-28T08:40:31+07:00</lastmod>
     <priority>0</priority>
   </url>
   
