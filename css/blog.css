@@ -91,3 +91,11 @@ h6 {
     padding: 14px;
   }
 }
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  padding-top: 50px;
+  top: 0;
+}
+
