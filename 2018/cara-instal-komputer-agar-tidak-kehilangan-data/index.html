@@ -75,19 +75,183 @@
 
 <h2 id="cara-instal-komputer-agar-tidak-kehilangan-data">Cara Instal Komputer Agar Tidak Kehilangan Data</h2>
 
-<p>Pada dasarnya menginstal komputer itu sangat mudah, terlebih pada saat ini semua teknologi berlomba-lomba untuk selalu update. Kebanyakan orang tidak memperhatikan data-data yang penting karena faktor tergesa-gesa atau deadline, disitulah terjadi kehilangan data penting tanpa disengaja.</p>
+<p>Menginstal komputer saat ini termasuk mudah, terlebih sudah ada beberapa software yang bisa digunakan untuk membuat booting dengan flashdisk, jadi kita tidak perlu lagi menggunakan cd/dvd. Bagi yang belum tau cara membuat Booting dengan Flashdisk saya sudah membuat tutorial terpisah disini <a href="https://nofegreen.github.io/2018/cara-membuat-flashdisk-bootable-untuk-windows/">Cara Membuat Flashdisk Bootable Untuk Windows</a></p>
 
-<p>Disinilah saya akan membagikan tutorial ala master bagi pemula yang hanya bisa menginstal komputer secara dasar. Tool yang digunakan untuk menginstal komputer / OS (Operation System) bervariasi tapi saya hanya menggunakan <code>Rufus</code> untuk boating di Flashdisk.</p>
+<p>Sebelum melakukan instalasi tentu kita harus berhati-hati terhadap data yang ada, apalagi tersimpan data penting pada sistem lama. Hati-hati disini yaitu lebih fokus pada saat melakukan partisi hardisk yang ada. Ok lanjut pada saat komputer mulai menyala atau saat tombol power ditekan cara gampang booting nya anda harus cepat-cepat menekan <code>tombol</code> untuk melakukan booting, dengan cara ini kita tidak perlu repot-repot untuk melakukan seting Bios. Tabel Boot Menu sudah saya sediakan dibawah ini, sesuaikan dengan hardware anda.</p>
 
-<p>Bahan - bahan yang digunakan adalah :</p>
+<p><code>Flashdisk yang sudah Bootable jangan lupa dicolokkan terlebih dahulu.</code></p>
 
-<ul>
-<li>Rufus.</li>
-<li>Flasdisck minimum 4 Gb.</li>
-<li>OS Windows 7 <sup>32</sup>&frasl;<sub>64</sub> Bit.</li>
-</ul>
+<h2 id="motherboards">Motherboards</h2>
 
-<p>Sebelum kita mulai menginstal Cpu, Laptop atau Notebook saya ansumsikan anda sudah mempunyai Flashdisk untuk melakukan booting.</p>
+<table>
+<thead>
+<tr>
+<th>Motherboards</th>
+<th align="center">Boot menu</th>
+<th align="right">Bios setup</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>ASRock</td>
+<td align="center"><code>F11</code></td>
+<td align="right"><code>F2, Del</code></td>
+</tr>
+
+<tr>
+<td>Asus</td>
+<td align="center"><code>F8, Esc</code></td>
+<td align="right"><code>Del, F2</code></td>
+</tr>
+
+<tr>
+<td>Biostar</td>
+<td align="center"><code>F9</code></td>
+<td align="right"><code>Del</code></td>
+</tr>
+
+<tr>
+<td>ECS</td>
+<td align="center"><code>F8</code></td>
+<td align="right"><code>Del</code></td>
+</tr>
+
+<tr>
+<td>EPoX</td>
+<td align="center"><code>Esc</code></td>
+<td align="right"><code>Del</code></td>
+</tr>
+
+<tr>
+<td>GigaByte</td>
+<td align="center"><code>F12</code></td>
+<td align="right"><code>Del</code></td>
+</tr>
+
+<tr>
+<td>HP</td>
+<td align="center"><code>F9, Esc, F7</code></td>
+<td align="right"><code>F10</code></td>
+</tr>
+
+<tr>
+<td>IBM</td>
+<td align="center"><code>---</code></td>
+<td align="right"><code>F1</code></td>
+</tr>
+
+<tr>
+<td>Intel</td>
+<td align="center"><code>F10, Esc</code></td>
+<td align="right"><code>F2</code></td>
+</tr>
+
+<tr>
+<td>MSI</td>
+<td align="center"><code>F11</code></td>
+<td align="right"><code>Del</code></td>
+</tr>
+
+<tr>
+<td></td>
+<td align="center"></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="notebooks">Notebooks</h2>
+
+<table>
+<thead>
+<tr>
+<th>Notebooks</th>
+<th align="center">Boot menu</th>
+<th align="right">Bios setup</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Acer</td>
+<td align="center"><code>F12</code></td>
+<td align="right"><code>F2</code></td>
+</tr>
+
+<tr>
+<td>Aquarius</td>
+<td align="center"><code>F11</code></td>
+<td align="right"><code>---</code></td>
+</tr>
+
+<tr>
+<td>Asus</td>
+<td align="center"><code>Esc</code></td>
+<td align="right"><code>F2</code></td>
+</tr>
+
+<tr>
+<td>Dell</td>
+<td align="center"><code>F12</code></td>
+<td align="right"><code>F2</code></td>
+</tr>
+
+<tr>
+<td>DNS</td>
+<td align="center"><code>F12</code></td>
+<td align="right"><code>---</code></td>
+</tr>
+
+<tr>
+<td>HP</td>
+<td align="center"><code>Esc, F9</code></td>
+<td align="right"><code>Esc, F10</code></td>
+</tr>
+
+<tr>
+<td>IBM</td>
+<td align="center"><code>F12</code></td>
+<td align="right"><code>F1</code></td>
+</tr>
+
+<tr>
+<td>Lenovo</td>
+<td align="center"><code>F12</code></td>
+<td align="right"><code>F2, F1</code></td>
+</tr>
+
+<tr>
+<td>Packard Bell</td>
+<td align="center"><code>F12</code></td>
+<td align="right"><code>F2</code></td>
+</tr>
+
+<tr>
+<td>Samsung</td>
+<td align="center"><code>F10, Esc</code></td>
+<td align="right"><code>F2</code></td>
+</tr>
+
+<tr>
+<td>Sony</td>
+<td align="center"><code>F11</code></td>
+<td align="right"><code>F2</code></td>
+</tr>
+
+<tr>
+<td></td>
+<td align="center"></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+
+<p>Pilihan booting yang akan tampil tidak lebih seperti gambar dibawah, jika telat menekan tombol yang sesuai atau tidak tampil seperti gambar, anda harus mengulang lagi dari awal, yaitu shutdown lagi Komputer anda -&gt; tekan tombol yang sesuai dengan Merk Komputer anda.</p>
+
+<p><img src="https://nofegreen.github.io/img/img_artikel_install/boot_menu.png" alt="Boot" /></p>
+
+<p>Lalu pilih USB dengan tombol panah pada keyboard dan tekan Enter.</p>
 
             </div>
         </div>
