@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nofe Green  | Software Software Penting Setelah Menginstal Komputer</title>
+    <title>Nofe Green  | Java Syntax</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
@@ -88,37 +88,55 @@ if (!doNotTrack) {
             <div class="content">
                 
 
-<h1 id="software-software-penting-setelah-menginstal-komputer">Software Software Penting Setelah Menginstal Komputer</h1>
+<h2 id="java-syntax">Java Syntax</h2>
 
-<p>Siap menginstal ulang sistem operasi pada komputer seperti PC, Laptop dan Notebook jangan langsung tergesa - gesa untuk menginstal software yang dibutuhkan, karena ada aturan yang mesti diperhatikan dan bisa saja ada software yang sudah terinfeksi virus tentunya, usahakan mengikuti tahap - tahap berikut ini supaya anda tidak kecewa dengan hasil instalasi yang kita lakukan.</p>
+<p>Contoh file java dasar <code>MyClass.java</code> yang akan menampilkan kata &ldquo;Hello World&rdquo; adalah</p>
 
-<h3 id="berikut-tahap-tahapnya">Berikut tahap - tahapnya :</h3>
+<blockquote>
+<p>MyClass.java</p>
 
-<ol>
-<li><p>Instal Antivirus Internasional + Smadav Lokal
-<p>Sebagai contoh antivirus yang saya pakai adalah Avast, dan ditambah Smadav sebagai proteksi total USB Flashdisk</p></p></li>
+<pre><code class="language-js">public class MyClass {
+  public static void main(String[] args) {
+    System.out.println(&quot;Hello World&quot;);
+  }
+} 
+</code></pre>
+</blockquote>
 
-<li><p>instal Direct dari 2012 - sekarang</p></li>
+<h3 id="penjelasan-kode-diatas">Penjelasan kode diatas</h3>
 
-<li><p>instal semua <code>driver</code> bawaan yang sesuai dengan speksifikasi hardware</p></li>
+<p>Perlu di ingat semua baris kode dalam java selalu berjalan dalam <code>class</code> disini saya memberi nama class dengan MyClass, huruf pertama class harus dimulai dengan huruf besar/kapital. Java sensitif terhadap huruf besar dan kecil.</p>
 
-<li><p>MS office</p></li>
+<p>Nama file java harus sama dengan nama class disaat anda menyimpannya atau dalam melakukan <code>save</code> dan jangan lupa <code>extension</code> dibelakangnya harus .java</p>
 
-<li><p>Rar / Zip</p></li>
+<p>Contoh : MyClass.java</p>
 
-<li><p>Foxit Reader</p></li>
+<p><img src="https://nofegreen.github.io/img/img_artikel_java/java.png" alt="Java" /></p>
 
-<li><p>Codec</p></li>
+<h3 id="the-main-method-metode">The main Method / Metode</h3>
 
-<li><p>Software pemutar musik</p></li>
+<p>Method <code>main()</code> akan selalu kita lihat dalam pemrograman java</p>
 
-<li><p>Software pemutar video</p></li>
+<blockquote>
+<p>public static void <strong>main</strong>(String[] args)</p>
+</blockquote>
 
-<li><p>Untuk browsing ( IE, Mozila, Chrome, dan lain-lain ),
-<p>Untuk Mozila saya pakai Mozila Developer karena lebih cepat dan ringan.</p></p></li>
-</ol>
+<p>Setiap barisan kode dalam method <strong>main</strong> akan dieksekusi atau dijalankan, untuk saat ini anda tidak perlu dulu mengenal lebih jauh, karena pada lanjutan tutorial-tutorial seterusnya akan membuat anda mengerti dengan sendirinya.</p>
 
-<p>Selanjutnya terserah anda seperti Photoshop, CorelDraw, Game, Adobe Premiere dan lain - lain sesuai kemampuan Hardware nya.</p>
+<h3 id="system-out-println">System.out.println()</h3>
+
+<p>Didalam method <code>main()</code> kita dapat menggunakan method <code>println()</code> untuk menampilkan baris text ke layar dengan mudah.</p>
+
+<pre><code class="language-js">public static void main(String[] args) {
+  System.out.println(&quot;Hello World&quot;);
+}
+
+// output teksnya Hello World
+</code></pre>
+
+<blockquote>
+<p><strong>Catatan:</strong> Setiap pernyataan dalam java harus diakhiri dengan semicolon atau titik koma &ldquo; ; &ldquo;</p>
+</blockquote>
 
             </div>
         </div>

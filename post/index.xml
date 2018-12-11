@@ -6,10 +6,31 @@
     <description>Recent content in Posts on Nofe Green</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Oct 2018 13:48:30 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 11 Dec 2018 10:36:26 +0700</lastBuildDate>
     
 	<atom:link href="https://nofegreen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java Syntax</title>
+      <link>https://nofegreen.github.io/2018/java-syntax/</link>
+      <pubDate>Tue, 11 Dec 2018 10:36:26 +0700</pubDate>
+      
+      <guid>https://nofegreen.github.io/2018/java-syntax/</guid>
+      <description>Java Syntax Contoh file java dasar MyClass.java yang akan menampilkan kata &amp;ldquo;Hello World&amp;rdquo; adalah
+ MyClass.java
+public class MyClass { public static void main(String[] args) { System.out.println(&amp;quot;Hello World&amp;quot;); } }   Penjelasan kode diatas Perlu di ingat semua baris kode dalam java selalu berjalan dalam class disini saya memberi nama class dengan MyClass, huruf pertama class harus dimulai dengan huruf besar/kapital. Java sensitif terhadap huruf besar dan kecil.</description>
+    </item>
+    
+    <item>
+      <title>Java Tutorial</title>
+      <link>https://nofegreen.github.io/2018/java-tutorial/</link>
+      <pubDate>Tue, 04 Dec 2018 09:13:30 +0700</pubDate>
+      
+      <guid>https://nofegreen.github.io/2018/java-tutorial/</guid>
+      <description>Tutorial Java Bahasa Pemrograman Java Java digunakan untuk mengembangkan aplikasi mobile, web, desktop, games dan banyak lagi. Java mudah untuk dipelajari dan dipahami bagi pemula. Berikut contoh pemrograman java :
+public class MyClass { public static void main(String[] args) { System.out.println(&amp;quot;Hello World&amp;quot;); } }  Java ? Java adalah sebuah bahasa pemrograman komputer yang dibuat tahun 1995, dimiliki oleh Oracle dan lebih dari 3 billion devices atau perangkat berjalan di bawah pemrograman Java.</description>
+    </item>
     
     <item>
       <title>Software Software Penting Setelah Menginstal Komputer</title>
@@ -18,8 +39,7 @@
       
       <guid>https://nofegreen.github.io/2018/software-software-penting-setelah-menginstal-komputer/</guid>
       <description>Software Software Penting Setelah Menginstal Komputer Siap menginstal ulang sistem operasi pada komputer seperti PC, Laptop dan Notebook jangan langsung tergesa - gesa untuk menginstal software yang dibutuhkan, karena ada aturan yang mesti diperhatikan dan bisa saja ada software yang sudah terinfeksi virus tentunya, usahakan mengikuti tahap - tahap berikut ini supaya anda tidak kecewa dengan hasil instalasi yang kita lakukan.
-Berikut tahap - tahapnya :
- Instal Antivirus Internasional + Smadav Lokal Sebagai contoh antivirus yang saya pakai adalah Avast, dan ditambah Smadav sebagai proteksi total USB Flashdisk</description>
+Berikut tahap - tahapnya :  Instal Antivirus Internasional + Smadav Lokal Sebagai contoh antivirus yang saya pakai adalah Avast, dan ditambah Smadav sebagai proteksi total USB Flashdisk</description>
     </item>
     
     <item>
