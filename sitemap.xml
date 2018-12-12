@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nofegreen.github.io/2018/java-comments/</loc>
+    <lastmod>2018-12-12T11:51:54+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nofegreen.github.io/2018/java-syntax/</loc>
     <lastmod>2018-12-11T10:36:26+07:00</lastmod>
   </url>
@@ -39,13 +44,13 @@
   
   <url>
     <loc>https://nofegreen.github.io/archives/2018/</loc>
-    <lastmod>2018-12-11T10:36:26+07:00</lastmod>
+    <lastmod>2018-12-12T11:51:54+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nofegreen.github.io/archives/</loc>
-    <lastmod>2018-12-11T10:36:26+07:00</lastmod>
+    <lastmod>2018-12-12T11:51:54+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -57,7 +62,7 @@
   
   <url>
     <loc>https://nofegreen.github.io/</loc>
-    <lastmod>2018-12-11T10:36:26+07:00</lastmod>
+    <lastmod>2018-12-12T11:51:54+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -69,7 +74,7 @@
   
   <url>
     <loc>https://nofegreen.github.io/post/</loc>
-    <lastmod>2018-12-11T10:36:26+07:00</lastmod>
+    <lastmod>2018-12-12T11:51:54+07:00</lastmod>
     <priority>0</priority>
   </url>
   

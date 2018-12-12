@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nofe Green  | Java Syntax</title>
+    <title>Nofe Green  | Java Comments</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
@@ -88,55 +88,53 @@ if (!doNotTrack) {
             <div class="content">
                 
 
-<h1 id="java-syntax">Java Syntax</h1>
+<h1 id="java-comments">Java Comments</h1>
 
-<p>Contoh file java dasar <code>MyClass.java</code> yang akan menampilkan kata &ldquo;Hello World&rdquo; adalah</p>
+<p>Comments atau komentar dapat digunakan untuk menjelaskan kode pada Java, dan membuatnya lebih mudah dibaca dan diingat jika kita akan melakukan pengeditan dikemudian hari. Comments juga dapat digunakan untuk mencegah eksekusi kode atau mencegah kode untuk dijalankan.</p>
 
-<blockquote>
-<p>MyClass.java</p>
+<p>Comments pada satu baris teks dimulai dengan dua garis miring didepannya (//). Teks apa pun antara // dan akhir baris akan diabaikan oleh Java atau tidak akan diproses.</p>
+
+<p>Dibawah ini adalah contoh menggunakan komentar pada baris tunggal sebelum baris kode:</p>
+
+<pre><code class="language-js">// Ini adalah komentar
+System.out.println(&quot;Hello World&quot;);
+</code></pre>
+
+<p>Dibawah ini adalah contoh menggunakan komentar baris tunggal di akhir baris kode:</p>
+
+<pre><code class="language-js">System.out.println(&quot;Hello World&quot;); // Ini adalah komentar
+</code></pre>
+
+<h2 id="java-multi-line-comments">Java Multi-line Comments</h2>
+
+<p>Komentar Multi-line dimulai dengan / * dan diakhiri dengan * /.</p>
+
+<p>Teks atau kode apa pun antara / * dan * / akan diabaikan oleh Java.</p>
+
+<p>Dibawah ini adalah contoh menggunakan komentar Multi-line pada baris kode:</p>
+
+<pre><code class="language-js">/* Kode dibawah ini akan mencetak teks Hello World ke layar */
+System.out.println(&quot;Hello World&quot;);
+</code></pre>
+
+<p>Contoh lain Komentar Multi-line pada kode adalah :</p>
 
 <pre><code class="language-js">public class MyClass {
   public static void main(String[] args) {
-    System.out.println(&quot;Hello World&quot;);
+/*  System.out.println(&quot;Hello World&quot;); */
+    System.out.println(&quot;Hello Dunia&quot;);
+/*  System.out.println(&quot;Hello Programmer&quot;); */
+    System.out.println(&quot;Hello Kitty&quot;);
   }
 }
-</code></pre>
-</blockquote>
 
-<h2 id="penjelasan-kode-diatas">Penjelasan kode diatas</h2>
 
-<p>Perlu di ingat semua baris kode dalam java selalu berjalan dalam <code>class</code> disini saya memberi nama class dengan MyClass, huruf pertama class harus dimulai dengan huruf besar/kapital. Java sensitif terhadap huruf besar dan kecil.</p>
-
-<p>Nama file java harus sama dengan nama class disaat anda menyimpannya atau dalam melakukan <code>save</code> dan jangan lupa <code>extension</code> dibelakangnya harus .java</p>
-
-<p>Contoh : MyClass.java</p>
-
-<p><img src="https://nofegreen.github.io/img/img_artikel_java/java.png" alt="Java" /></p>
-
-<h2 id="the-main-method-metode">The main Method / Metode</h2>
-
-<p>Method <code>main()</code> akan selalu kita lihat dalam pemrograman java</p>
-
-<blockquote>
-<p>public static void <strong>main</strong>(String[] args)</p>
-</blockquote>
-
-<p>Setiap barisan kode dalam method <strong>main</strong> akan dieksekusi atau dijalankan, untuk saat ini anda tidak perlu dulu mengenal lebih jauh, karena pada lanjutan tutorial-tutorial seterusnya akan membuat anda mengerti dengan sendirinya.</p>
-
-<h2 id="system-out-println">System.out.println()</h2>
-
-<p>Didalam method <code>main()</code> kita dapat menggunakan method <code>println()</code> untuk menampilkan baris text ke layar dengan mudah.</p>
-
-<pre><code class="language-js">public static void main(String[] args) {
-  System.out.println(&quot;Hello World&quot;);
-}
-
-// output teksnya Hello World
+//  outputnya adalah :
+    Hello Dunia
+    Hello Kitty
 </code></pre>
 
-<blockquote>
-<p><strong>Catatan:</strong> Setiap pernyataan dalam java harus diakhiri dengan semicolon atau titik koma &ldquo; ; &ldquo;</p>
-</blockquote>
+<p>Program yang hanya akan dijalankan dan diproses adalah Hello Dunia dan Hello Kitty.</p>
 
             </div>
         </div>

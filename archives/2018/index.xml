@@ -6,10 +6,21 @@
     <description>Recent content in 2018 on Nofe Green</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Dec 2018 10:36:26 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 11:51:54 +0700</lastBuildDate>
     
 	<atom:link href="https://nofegreen.github.io/archives/2018/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java Comments</title>
+      <link>https://nofegreen.github.io/2018/java-comments/</link>
+      <pubDate>Wed, 12 Dec 2018 11:51:54 +0700</pubDate>
+      
+      <guid>https://nofegreen.github.io/2018/java-comments/</guid>
+      <description>Java Comments Comments atau komentar dapat digunakan untuk menjelaskan kode pada Java, dan membuatnya lebih mudah dibaca dan diingat jika kita akan melakukan pengeditan dikemudian hari. Comments juga dapat digunakan untuk mencegah eksekusi kode atau mencegah kode untuk dijalankan.
+Comments pada satu baris teks dimulai dengan dua garis miring didepannya (//). Teks apa pun antara // dan akhir baris akan diabaikan oleh Java atau tidak akan diproses.
+Dibawah ini adalah contoh menggunakan komentar pada baris tunggal sebelum baris kode:</description>
+    </item>
     
     <item>
       <title>Java Syntax</title>
